@@ -1,4 +1,5 @@
 FROM openjdk:13-alpine
+ENV RAM="2G"
 COPY start.sh /start.sh
 RUN mkdir -p /opt/papermc/server
 RUN chmod +x /start.sh
