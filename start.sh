@@ -1,4 +1,4 @@
-#/bin/sh
+#!/bin/sh
 
 wget https://papermc.io/api/v1/paper/1.15.2/latest/download -O /opt/papermc/paperclip.jar
 cd /data
